@@ -1,0 +1,4 @@
+source;share/hight/local_setup.bash
+source;share/hight/local_setup.dsv
+source;share/hight/local_setup.sh
+source;share/hight/local_setup.zsh

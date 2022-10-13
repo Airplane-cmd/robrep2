@@ -1,0 +1,30 @@
+[0.019s] Invoking command in '/home/butthead/WS/robrep/hight/nuc/hight/build/hight': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/butthead/WS/robrep/hight/nuc/hight/build/hight -- -j4 -l4
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.082s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[0.082s] [ 75%] Built target listener
+[4.705s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.924s] [100%] Built target talker
+[4.935s] Invoked command in '/home/butthead/WS/robrep/hight/nuc/hight/build/hight' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/butthead/WS/robrep/hight/nuc/hight/build/hight -- -j4 -l4
+[4.979s] Invoking command in '/home/butthead/WS/robrep/hight/nuc/hight/build/hight': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/butthead/WS/robrep/hight/nuc/hight/build/hight
+[4.988s] -- Install configuration: ""
+[4.989s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/lib/hight/talker
+[4.991s] -- Set runtime path of "/home/butthead/WS/robrep/hight/nuc/hight/install/hight/lib/hight/talker" to ""
+[4.991s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/lib/hight/listener
+[4.996s] -- Set runtime path of "/home/butthead/WS/robrep/hight/nuc/hight/install/hight/lib/hight/listener" to ""
+[4.997s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/ament_index/resource_index/package_run_dependencies/hight
+[4.997s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/ament_index/resource_index/parent_prefix_path/hight
+[4.998s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/environment/ament_prefix_path.sh
+[4.998s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/environment/ament_prefix_path.dsv
+[4.998s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/environment/path.sh
+[4.999s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/environment/path.dsv
+[4.999s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/local_setup.bash
+[4.999s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/local_setup.sh
+[4.999s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/local_setup.zsh
+[5.000s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/local_setup.dsv
+[5.000s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/package.dsv
+[5.000s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/ament_index/resource_index/packages/hight
+[5.001s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/cmake/hightConfig.cmake
+[5.001s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/cmake/hightConfig-version.cmake
+[5.001s] -- Installing: /home/butthead/WS/robrep/hight/nuc/hight/install/hight/share/hight/package.xml
+[5.004s] Invoked command in '/home/butthead/WS/robrep/hight/nuc/hight/build/hight' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/butthead/WS/robrep/hight/nuc/hight/build/hight

@@ -1,0 +1,65 @@
+[0.000000] (-) TimerEvent: {}
+[0.000239] (hight) JobQueued: {'identifier': 'hight', 'dependencies': OrderedDict()}
+[0.000291] (hight) JobStarted: {'identifier': 'hight'}
+[0.013435] (hight) JobProgress: {'identifier': 'hight', 'progress': 'cmake'}
+[0.014678] (hight) JobProgress: {'identifier': 'hight', 'progress': 'build'}
+[0.015693] (hight) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/butthead/WS/robrep/hight/nuc/hight/build/hight', '--', '-j4', '-l4'], 'cwd': '/home/butthead/WS/robrep/hight/nuc/hight/build/hight', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'butthead'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/butthead'), ('OLDPWD', '/home/butthead/WS/robrep/hight/nuc/hight/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '154839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/butthead/WS/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'butthead'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'butthead'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/butthead-Swift-SF314-41:@/tmp/.ICE-unix/94692,unix/butthead-Swift-SF314-41:/tmp/.ICE-unix/94692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a4c7ad4_f154_4bf4_b535_1619fafc54dd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQ5FT1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.955'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/butthead/WS/robrep/hight/nuc/hight/build/hight'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/butthead/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061846] (hight) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[0.062764] (hight) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.079221] (hight) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[0.079475] (hight) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.098744] (-) TimerEvent: {}
+[0.199081] (-) TimerEvent: {}
+[0.299434] (-) TimerEvent: {}
+[0.399806] (-) TimerEvent: {}
+[0.500177] (-) TimerEvent: {}
+[0.600574] (-) TimerEvent: {}
+[0.701061] (-) TimerEvent: {}
+[0.801461] (-) TimerEvent: {}
+[0.901886] (-) TimerEvent: {}
+[1.002283] (-) TimerEvent: {}
+[1.102652] (-) TimerEvent: {}
+[1.203003] (-) TimerEvent: {}
+[1.303387] (-) TimerEvent: {}
+[1.403776] (-) TimerEvent: {}
+[1.504160] (-) TimerEvent: {}
+[1.604545] (-) TimerEvent: {}
+[1.704948] (-) TimerEvent: {}
+[1.805372] (-) TimerEvent: {}
+[1.905917] (-) TimerEvent: {}
+[2.006434] (-) TimerEvent: {}
+[2.106908] (-) TimerEvent: {}
+[2.207391] (-) TimerEvent: {}
+[2.307889] (-) TimerEvent: {}
+[2.408257] (-) TimerEvent: {}
+[2.508655] (-) TimerEvent: {}
+[2.609027] (-) TimerEvent: {}
+[2.709403] (-) TimerEvent: {}
+[2.713522] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.713819] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:17:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before numeric constant\n'}
+[2.713996] (hight) StderrLine: {'line': b'   17 |                 subscription_ = this->create_subscription<std_msgs::msg::String>("topic". \x1b[01;31m\x1b[K10\x1b[m\x1b[K, std::bind(&MinimalSubscriber::topic_callback, this, _1));\n'}
+[2.714127] (hight) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.753675] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.753981] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:16:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say \xe2\x80\x98\x1b[01m\x1b[K&MinimalPublisher::timer_callback\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.754125] (hight) StderrLine: {'line': b'   16 |            timer_ = this->create_wall_timer(500ms, std::bind(&\x1b[01;31m\x1b[K(MinimalPublisher::timer_callback)\x1b[m\x1b[K, this));\n'}
+[2.754295] (hight) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.754442] (hight) StderrLine: {'line': b'\n'}
+[2.809530] (-) TimerEvent: {}
+[2.910013] (-) TimerEvent: {}
+[3.010387] (-) TimerEvent: {}
+[3.110788] (-) TimerEvent: {}
+[3.211161] (-) TimerEvent: {}
+[3.245582] (hight) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1\n'}
+[3.245839] (hight) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[3.245928] (hight) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.311275] (-) TimerEvent: {}
+[3.411629] (-) TimerEvent: {}
+[3.512040] (-) TimerEvent: {}
+[3.612447] (-) TimerEvent: {}
+[3.690402] (hight) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1\n'}
+[3.690835] (hight) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[3.691131] (hight) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.693198] (hight) CommandEnded: {'returncode': 2}
+[3.712602] (-) TimerEvent: {}
+[3.744932] (hight) JobEnded: {'identifier': 'hight', 'rc': 2}
+[3.755570] (-) EventReactorShutdown: {}

@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000344] (hight) JobQueued: {'identifier': 'hight', 'dependencies': OrderedDict()}
+[0.000425] (hight) JobStarted: {'identifier': 'hight'}
+[0.014042] (hight) JobProgress: {'identifier': 'hight', 'progress': 'cmake'}
+[0.014280] (hight) Command: {'cmd': ['/usr/bin/cmake', '/home/butthead/WS/robrep/hight/nuc/hight', '-DCMAKE_INSTALL_PREFIX=/home/butthead/WS/robrep/hight/nuc/hight/install/hight'], 'cwd': '/home/butthead/WS/robrep/hight/nuc/hight/build/hight', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'butthead'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/butthead'), ('OLDPWD', '/home/butthead/WS/robrep/hight/nuc/hight/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '154839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/butthead/WS/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'butthead'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'butthead'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/butthead-Swift-SF314-41:@/tmp/.ICE-unix/94692,unix/butthead-Swift-SF314-41:/tmp/.ICE-unix/94692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a4c7ad4_f154_4bf4_b535_1619fafc54dd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQ5FT1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.955'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/butthead/WS/robrep/hight/nuc/hight/build/hight'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/butthead/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098674] (-) TimerEvent: {}
+[0.153180] (hight) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.198787] (-) TimerEvent: {}
+[0.260776] (hight) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.278150] (hight) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.298913] (-) TimerEvent: {}
+[0.351091] (hight) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.360839] (hight) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.361314] (hight) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.362472] (hight) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.366431] (hight) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399006] (-) TimerEvent: {}
+[0.449604] (hight) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.459575] (hight) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.459920] (hight) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.460522] (hight) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.469485] (hight) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499105] (-) TimerEvent: {}
+[0.599427] (-) TimerEvent: {}
+[0.668183] (hight) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter \n'}
+[0.699542] (-) TimerEvent: {}
+[0.780731] (hight) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.799634] (-) TimerEvent: {}
+[0.850000] (hight) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.858850] (hight) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.872069] (hight) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.892071] (hight) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.899710] (-) TimerEvent: {}
+[0.921025] (hight) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.999847] (-) TimerEvent: {}
+[1.008069] (hight) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.011304] (hight) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.099948] (-) TimerEvent: {}
+[1.116531] (hight) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.144611] (hight) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.192046] (hight) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.200060] (-) TimerEvent: {}
+[1.300443] (-) TimerEvent: {}
+[1.400869] (-) TimerEvent: {}
+[1.501295] (-) TimerEvent: {}
+[1.501649] (hight) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.526566] (hight) StdoutLine: {'line': b'-- Generating done\n'}
+[1.528976] (hight) StdoutLine: {'line': b'-- Build files have been written to: /home/butthead/WS/robrep/hight/nuc/hight/build/hight\n'}
+[1.537777] (hight) CommandEnded: {'returncode': 0}
+[1.538494] (hight) JobProgress: {'identifier': 'hight', 'progress': 'build'}
+[1.539636] (hight) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/butthead/WS/robrep/hight/nuc/hight/build/hight', '--', '-j4', '-l4'], 'cwd': '/home/butthead/WS/robrep/hight/nuc/hight/build/hight', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'butthead'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/butthead'), ('OLDPWD', '/home/butthead/WS/robrep/hight/nuc/hight/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '154839'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/butthead/WS/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'butthead'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'butthead'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/butthead-Swift-SF314-41:@/tmp/.ICE-unix/94692,unix/butthead-Swift-SF314-41:/tmp/.ICE-unix/94692'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a4c7ad4_f154_4bf4_b535_1619fafc54dd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQ5FT1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.955'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/butthead/WS/robrep/hight/nuc/hight/build/hight'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/butthead/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.592992] (hight) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.593246] (hight) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.601406] (-) TimerEvent: {}
+[1.701740] (-) TimerEvent: {}
+[1.802072] (-) TimerEvent: {}
+[1.902442] (-) TimerEvent: {}
+[2.002803] (-) TimerEvent: {}
+[2.103200] (-) TimerEvent: {}
+[2.203569] (-) TimerEvent: {}
+[2.303951] (-) TimerEvent: {}
+[2.404345] (-) TimerEvent: {}
+[2.504717] (-) TimerEvent: {}
+[2.605093] (-) TimerEvent: {}
+[2.705777] (-) TimerEvent: {}
+[2.806144] (-) TimerEvent: {}
+[2.908265] (-) TimerEvent: {}
+[3.008901] (-) TimerEvent: {}
+[3.109373] (-) TimerEvent: {}
+[3.209780] (-) TimerEvent: {}
+[3.310287] (-) TimerEvent: {}
+[3.411756] (-) TimerEvent: {}
+[3.512267] (-) TimerEvent: {}
+[3.612725] (-) TimerEvent: {}
+[3.713241] (-) TimerEvent: {}
+[3.813613] (-) TimerEvent: {}
+[3.914008] (-) TimerEvent: {}
+[4.014543] (-) TimerEvent: {}
+[4.115337] (-) TimerEvent: {}
+[4.215739] (-) TimerEvent: {}
+[4.316169] (-) TimerEvent: {}
+[4.416575] (-) TimerEvent: {}
+[4.480542] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.482637] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:16:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.482839] (hight) StderrLine: {'line': b'   16 |                 timer_ = this->create_wall_timer(\x1b[01;31m\x1b[K500ms.\x1b[m\x1b[K std::bind(&MinimalPublisher::timer_callback. this));\n'}
+[4.482966] (hight) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.487707] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.487921] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:24:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmassage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.488031] (hight) StderrLine: {'line': b'   24 |                 publisher_->publish(\x1b[01;31m\x1b[Kmassage\x1b[m\x1b[K);\n'}
+[4.488183] (hight) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.488258] (hight) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kmessage\x1b[m\x1b[K\n'}
+[4.488329] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.488421] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:30:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K.\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.489275] (hight) StderrLine: {'line': b'   30 | int main(int argc\x1b[01;31m\x1b[K.\x1b[m\x1b[K char **argv)\n'}
+[4.489398] (hight) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.489497] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:30:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint main(int)\x1b[m\x1b[K\xe2\x80\x99 takes only zero or two arguments [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmain\x07-Wmain\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.489599] (hight) StderrLine: {'line': b'   30 | int \x1b[01;35m\x1b[Kmain\x1b[m\x1b[K(int argc. char **argv)\n'}
+[4.489697] (hight) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.492447] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.492710] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/publisher.cpp:32:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.492854] (hight) StderrLine: {'line': b'   32 |         rclcpp::init(argc, \x1b[01;31m\x1b[Kargv\x1b[m\x1b[K);\n'}
+[4.493008] (hight) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.493133] (hight) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Kargc\x1b[m\x1b[K\n'}
+[4.516725] (-) TimerEvent: {}
+[4.552348] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:9:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.552533] (hight) StderrLine: {'line': b'    9 |         rclcpp::Subscription<std::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String>::SharedPtr subscription_;\n'}
+[4.552607] (hight) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.552764] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:9:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[4.553125] (hight) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[4.553209] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[4.553275] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[4.553339] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[4.553402] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[4.553464] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.553526] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.553587] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.553648] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.553710] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.553771] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.553842] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.553904] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.553972] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.554063] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[4.554127] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.554191] (hight) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.554252] (hight) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.554313] (hight) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[4.554376] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[4.554437] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[4.554498] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[4.554565] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.554628] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.554689] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.554751] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.554812] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.554874] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.554936] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.554998] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.555060] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[4.555155] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.555406] (hight) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.555938] (hight) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.556095] (hight) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[4.556270] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[4.556406] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[4.556511] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[4.556613] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[4.556715] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[4.556802] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.556885] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.556967] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.557049] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.557132] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.557214] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.557313] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.557415] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[4.557516] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.557616] (hight) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.557697] (hight) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.557780] (hight) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:7\x1b[m\x1b[K,\n'}
+[4.557863] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:4\x1b[m\x1b[K:\n'}
+[4.557945] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.558080] (hight) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[4.558196] (hight) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.558311] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:9:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.558406] (hight) StderrLine: {'line': b'    9 |         rclcpp::Subscription<std::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[4.558509] (hight) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.558612] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:9:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[4.558724] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:9:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[4.558838] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:9:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[4.558930] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:9:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.559022] (hight) StderrLine: {'line': b'    9 |         rclcpp::Subscription<std::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[4.559115] (hight) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.559214] (hight) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.561195] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:9:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.561623] (hight) StderrLine: {'line': b'    9 |         rclcpp::Subscription<std::msg::String>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[4.561760] (hight) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.561878] (hight) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[4.562007] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:19:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.562133] (hight) StderrLine: {'line': b'   19 | int main(int argc, char argv\x1b[01;31m\x1b[K*\x1b[m\x1b[K*)\n'}
+[4.562254] (hight) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.562370] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:25:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[4.562572] (hight) StderrLine: {'line': b'   25 | }\n'}
+[4.562795] (hight) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.562973] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:7:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.563144] (hight) StderrLine: {'line': b'    7 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.563272] (hight) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.574448] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::MinimalSubscriber()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.574710] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:17:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.574842] (hight) StderrLine: {'line': b'   17 |                 \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::String>("topic". 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));\n'}
+[4.575002] (hight) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.575142] (hight) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[4.575255] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:17:91:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before numeric constant\n'}
+[4.575371] (hight) StderrLine: {'line': b'   17 |                 subscription_ = this->create_subscription<std_msgs::msg::String>("topic". \x1b[01;31m\x1b[K10\x1b[m\x1b[K, std::bind(&MinimalSubscriber::topic_callback, this, _1));\n'}
+[4.575488] (hight) StderrLine: {'line': b'      |                                                                                           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.580802] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MinimalSubscriber::main(int, char)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.581064] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:21:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char* const*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.581179] (hight) StderrLine: {'line': b'   21 |         rclcpp::init(argc, \x1b[01;31m\x1b[Kargv\x1b[m\x1b[K);\n'}
+[4.581294] (hight) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.581380] (hight) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[4.581464] (hight) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[Kchar\x1b[m\x1b[K\n'}
+[4.581546] (hight) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[4.581636] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.581721] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[4.581807] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.581890] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.581973] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.582079] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.582164] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.582252] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.582514] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.582788] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.582951] (hight) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:3\x1b[m\x1b[K:\n'}
+[4.583148] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:77:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::init(int, const char* const*, const rclcpp::InitOptions&, rclcpp::SignalHandlerOptions)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.583276] (hight) StderrLine: {'line': b'   77 |   \x1b[01;36m\x1b[Kchar const * const * argv\x1b[m\x1b[K,\n'}
+[4.583400] (hight) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.583511] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:22:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmake_shred\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmake_shared\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.583637] (hight) StderrLine: {'line': b'   22 |         rclcpp::spin(std::\x1b[01;31m\x1b[Kmake_shred\x1b[m\x1b[K<MinimalSubscriber>());\n'}
+[4.583751] (hight) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.584253] (hight) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kmake_shared\x1b[m\x1b[K\n'}
+[4.584367] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:22:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.584496] (hight) StderrLine: {'line': b'   22 |         rclcpp::spin(std::make_shred<MinimalSubscriber\x1b[01;31m\x1b[K>\x1b[m\x1b[K());\n'}
+[4.584624] (hight) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.584740] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:22:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.584857] (hight) StderrLine: {'line': b'   22 |         rclcpp::spin(std::make_shred<MinimalSubscriber>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[4.584973] (hight) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.585087] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.585209] (hight) StderrLine: {'line': b'\x1b[01m\x1b[K/home/butthead/WS/robrep/hight/nuc/hight/src/subscriber.cpp:25:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[4.585326] (hight) StderrLine: {'line': b'   25 | }\n'}
+[4.585443] (hight) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.616849] (-) TimerEvent: {}
+[4.717473] (-) TimerEvent: {}
+[4.817939] (-) TimerEvent: {}
+[4.918322] (-) TimerEvent: {}
+[5.018697] (-) TimerEvent: {}
+[5.110804] (hight) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber.cpp.o] Error 1\n'}
+[5.111101] (hight) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[5.111234] (hight) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.118842] (-) TimerEvent: {}
+[5.219186] (-) TimerEvent: {}
+[5.319538] (-) TimerEvent: {}
+[5.328072] (hight) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1\n'}
+[5.328287] (hight) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[5.328535] (hight) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.339156] (hight) CommandEnded: {'returncode': 2}
+[5.419998] (-) TimerEvent: {}
+[5.424898] (hight) JobEnded: {'identifier': 'hight', 'rc': 2}
+[5.435860] (-) EventReactorShutdown: {}
