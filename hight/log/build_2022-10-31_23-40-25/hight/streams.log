@@ -1,0 +1,9 @@
+[0.017s] Invoking command in '/home/butthead/WS/robrep2/hight/build/hight': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/butthead/WS/robrep2/hight -DCMAKE_INSTALL_PREFIX=/home/butthead/WS/robrep2/hight/install/hight
+[0.042s] [31mCMake Error at CMakeLists.txt:16:
+[0.042s]   Parse error.  Expected "(", got newline with text "
+[0.042s] 
+[0.042s]   ".
+[0.042s] 
+[0.042s] [0m
+[0.043s] -- Configuring incomplete, errors occurred!
+[0.046s] Invoked command in '/home/butthead/WS/robrep2/hight/build/hight' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/butthead/WS/robrep2/hight -DCMAKE_INSTALL_PREFIX=/home/butthead/WS/robrep2/hight/install/hight

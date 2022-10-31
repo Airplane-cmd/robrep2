@@ -1,0 +1,2 @@
+Invoking command in '/home/butthead/WS/robrep2/hight/build/hight': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/butthead/WS/robrep2/hight -DCMAKE_INSTALL_PREFIX=/home/butthead/WS/robrep2/hight/install/hight
+Invoked command in '/home/butthead/WS/robrep2/hight/build/hight' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/butthead/WS/robrep2/hight -DCMAKE_INSTALL_PREFIX=/home/butthead/WS/robrep2/hight/install/hight
