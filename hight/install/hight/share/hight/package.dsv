@@ -1,8 +1,0 @@
-source;share/hight/hook/cmake_prefix_path.ps1
-source;share/hight/hook/cmake_prefix_path.dsv
-source;share/hight/hook/cmake_prefix_path.sh
-source;share/hight/local_setup.bash
-source;share/hight/local_setup.dsv
-source;share/hight/local_setup.ps1
-source;share/hight/local_setup.sh
-source;share/hight/local_setup.zsh

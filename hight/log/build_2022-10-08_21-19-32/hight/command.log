@@ -1,4 +1,0 @@
-Invoking command in '/home/butthead/WS/robrep/hight/nuc/hight/build/hight': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/butthead/WS/robrep/hight/nuc/hight -DCMAKE_INSTALL_PREFIX=/home/butthead/WS/robrep/hight/nuc/hight/install/hight
-Invoked command in '/home/butthead/WS/robrep/hight/nuc/hight/build/hight' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/butthead/WS/robrep/hight/nuc/hight -DCMAKE_INSTALL_PREFIX=/home/butthead/WS/robrep/hight/nuc/hight/install/hight
-Invoking command in '/home/butthead/WS/robrep/hight/nuc/hight/build/hight': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/butthead/WS/robrep/hight/nuc/hight/build/hight -- -j4 -l4
-Invoked command in '/home/butthead/WS/robrep/hight/nuc/hight/build/hight' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/butthead/WS/robrep/hight/nuc/hight/build/hight -- -j4 -l4
